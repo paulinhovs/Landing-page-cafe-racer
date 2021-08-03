@@ -20,15 +20,7 @@ header {
     justify-content: space-between;
 }
 
-.imglogo {
-    margin-bottom: 20px;
-}
 
-.logo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
 
 .menu {
     display: flex;
@@ -58,4 +50,40 @@ nav .active a,
 nav a:hover {
     background-color: red;
     color: black;
+}
+
+@media (min-width: 350px) and (max-width:450px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        flex: 1;
+        margin: 0;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -90px;
+    }
+
+    ul {
+        flex-direction: column;
+        line-height: 2.5px;
+        margin-left: 2px;
+    }
+    
+    nav .active a,
+    nav a:hover {
+    background-color: red;
+    color: black;
+    }
+
 }
