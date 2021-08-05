@@ -6,26 +6,88 @@
     margin: 0;
 }
 
-.nav-space {
-    height: 80px;
-    padding: 0;
-    width: 100%;
-    background-color: black;
-}
+
 
 .section-space1 {
-    background-image: url('images/BANNER1.jpg');
+    background-image: url('images/banner1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+#historia-space1 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    margin-top: 90px;
+    text-shadow: 0px 1px 0px red;
+    height: 70px;
+    width: 360px;
+    margin-left: 120px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .section-space1-mobile {
     display: none;
-    background-image: url('images/homem-ligado-cafe-racer-estilo-motocicleta_23-2148189618.jpg');
+    background-image: url('images/mobile1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+#historia-mobile1 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    margin-top: 50px;
+    text-shadow: 0px 1px 0px red;
+    height: 70px;
+    width: 360px;
+    margin-left: 10px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space2 {
+    background-image: url('images/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space2 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    margin-top: 100px;
+    text-shadow: 0px 1px 0px red;
+    height: 70px;
+    width: 360px;
+    margin-left: 120px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space2-mobile {
+    display: none;
+    background-image: url('images/mobile2.1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile2 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    margin-top: 120px;
+    text-shadow: 0px 1px 0px red;
+    height: 120px;
+    width: 100px;
+    margin-left: 20px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 @media (min-width:350px) and (max-width:390px) {
@@ -37,13 +99,12 @@
         display: block;
     }
 
+    .section-space2 {
+        display: none;
+    }
 
-
-
-
-
-
-
-
+    .section-space2-mobile {
+        display: block;
+    }
 
 }
