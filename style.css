@@ -60,7 +60,7 @@
     position: absolute;
     color: white;
     display: flex;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 100px;
     text-shadow: 0px 1px 0px red;
     height: 70px;
@@ -101,7 +101,7 @@
     position: absolute;
     color: white;
     display: flex;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 100px;
     text-shadow: 0px 1px 0px red;
     height: 70px;
@@ -131,6 +131,89 @@
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
+.section-space4 {
+    background-image: url('images/banner3.4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space4 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    margin-top: 100px;
+    text-shadow: 0px 1px 0px red;
+    height: 300px;
+    width: 500px;
+    margin-left: 700px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space4-mobile {
+    display: none;
+    background-image: url('images/mobile3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile4 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    margin-top: 50px;
+    text-shadow: 0px 1px 0px red;
+    height: 150px;
+    width: 280px;
+    margin-left: 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space5 {
+    background-image: url('images/banner4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space5 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    margin-top: 100px;
+    text-shadow: 0px 1px 0px red;
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space5-mobile {
+    display: none;
+    background-image: url('images/mobile5.4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile5 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    margin-top: 50px;
+    text-shadow: 0px 1px 0px red;
+    height: 150px;
+    width: 280px;
+    margin-left: 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+
 @media (min-width:350px) and (max-width:390px) {
     .section-space1 {
         display: none;
@@ -156,7 +239,23 @@
         display: block;
     }
 
-    
+    .section-space4 {
+        display: none;
+    }
+
+    .section-space4-mobile {
+        display: block;
+    }
+
+    .section-space5 {
+        display: none;
+    }
+
+    .section-space5-mobile {
+        display: block;
+    }
+
+
 
 
 }
