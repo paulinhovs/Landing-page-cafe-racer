@@ -213,6 +213,47 @@
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
+.section-space6 {
+    background-image: url('images/banner5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space6 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    margin-top: 100px;
+    text-shadow: 0px 1px 0px red;
+    height: 300px;
+    width: 500px;
+    margin-left: 800px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space6-mobile {
+    display: none;
+    background-image: url('images/mobile5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile6 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 13px;
+    margin-top: 50px;
+    text-shadow: 0px 1px 0px red;
+    height: 150px;
+    width: 280px;
+    margin-left: 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
 
 @media (min-width:350px) and (max-width:390px) {
     .section-space1 {
@@ -255,6 +296,13 @@
         display: block;
     }
 
+    .section-space6 {
+        display: none;
+    }
+
+    .section-space6-mobile {
+        display: block;
+    }
 
 
 
