@@ -90,6 +90,47 @@
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
+.section-space3 {
+    background-image: url('images/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space3 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    margin-top: 100px;
+    text-shadow: 0px 1px 0px red;
+    height: 70px;
+    width: 360px;
+    margin-left: 900px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space3-mobile {
+    display: none;
+    background-image: url('images/mobile2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile3 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    margin-top: 120px;
+    text-shadow: 0px 1px 0px red;
+    height: 120px;
+    width: 100px;
+    margin-left: 260px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
 @media (min-width:350px) and (max-width:390px) {
     .section-space1 {
         display: none;
@@ -106,5 +147,21 @@
     .section-space2-mobile {
         display: block;
     }
+
+    .section-space3 {
+        display: none;
+    }
+
+    .section-space3-mobile {
+        display: block;
+    }
+
+    
+
+
+}
+
+@media (min-width:360px) and (max-width:370px) {
+
 
 }
