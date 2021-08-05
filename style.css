@@ -194,7 +194,7 @@
 
 .section-space5-mobile {
     display: none;
-    background-image: url('images/mobile5.4.jpg');
+    background-image: url('images/mobile4.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -205,7 +205,7 @@
     color: white;
     display: flex;
     font-size: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-shadow: 0px 1px 0px red;
     height: 150px;
     width: 280px;
@@ -235,7 +235,7 @@
 
 .section-space6-mobile {
     display: none;
-    background-image: url('images/mobile5.jpg');
+    background-image: url('images/mobile5.4.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -254,6 +254,46 @@
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
+.section-space7 {
+    background-image: url('images/banner6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-space7 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    margin-top: 20px;
+    text-shadow: 0px 1px 0px red;
+    height: 300px;
+    width: 500px;
+    margin-left: 840px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.section-space7-mobile {
+    display: none;
+    background-image: url('images/mobile5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#historia-mobile7 {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 13px;
+    margin-top: 50px;
+    text-shadow: 0px 1px 0px red;
+    height: 150px;
+    width: 280px;
+    margin-left: 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
 
 @media (min-width:350px) and (max-width:390px) {
     .section-space1 {
@@ -301,6 +341,14 @@
     }
 
     .section-space6-mobile {
+        display: block;
+    }
+
+    .section-space7 {
+        display: none;
+    }
+
+    .section-space7-mobile {
         display: block;
     }
 
